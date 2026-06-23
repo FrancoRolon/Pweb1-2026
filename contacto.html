@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Club de Fútbol UNO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" class="logo">
+        <h1>⚽ Club de Fútbol UNO</h1>
+        <p>Universidad Nacional del Oeste</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Contactanos</h2>
+
+        <p>
+            ¿Querés sumarte al club o tenés alguna pregunta? Completá el formulario y 
+            nos ponemos en contacto con vos.
+        </p>
+
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ej: juan@email.com">
+
+            <label for="carrera">Carrera que cursás:</label>
+            <input type="text" id="carrera" name="carrera" placeholder="Ej: Licenciatura en informatica">
+
+            <label for="motivo">¿Por qué te interesa unirte?</label>
+            <select id="motivo" name="motivo">
+                <option value="">-- Seleccioná una opción --</option>
+                <option value="jugar">Quiero jugar en el equipo</option>
+                <option value="entrenar">Solo quiero entrenar</option>
+                <option value="info">Quiero más información</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje acá..."></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+        <h2 style="margin-top: 30px;">Información de contacto</h2>
+
+        <p>📧 Email: <a href="mailto:futbol@uno.edu.ar">futbol@uno.edu.ar</a></p>
+        <p>📍 Dirección: Campus UNO, Buenos Aires</p>
+        <p>📞 Teléfono: (011) 4444-5555</p>
+        <p>🕐 Atención: Lunes a viernes de 9:00 a 17:00 hs</p>
+    </main>
+
+    <footer>
+        <p>© 2026 Club de Fútbol UNO - Universidad Nacional del Oeste</p>
+    </footer>
+
+</body>
+</html>
